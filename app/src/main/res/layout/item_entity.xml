@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="#F5F5F5"> <!-- Light gray background -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#8BC34A">
+
+        <TextView
+            android:id="@+id/entity_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FFEB3B" /> <!-- Dark gray text for title -->
+
+        <TextView
+            android:id="@+id/entity_architect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:ellipsize="end"
+            android:maxLines="1" /> <!-- Dark gray text for architect -->
+
+        <TextView
+            android:id="@+id/entity_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:ellipsize="end"
+            android:maxLines="1" /> <!-- Medium gray for location -->
+
+        <TextView
+            android:id="@+id/entity_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:ellipsize="end"
+            android:maxLines="1" /> <!-- Medium gray for year -->
+
+        <TextView
+            android:id="@+id/entity_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:ellipsize="end"
+            android:maxLines="1" /> <!-- Medium gray for style -->
+
+        <TextView
+            android:id="@+id/entity_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:ellipsize="end"
+            android:maxLines="1" /> <!-- Medium gray for height -->
+
+        <TextView
+            android:id="@+id/entity_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#212121"
+            android:ellipsize="end"
+            android:maxLines="2" /> <!-- Dark gray for description -->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
